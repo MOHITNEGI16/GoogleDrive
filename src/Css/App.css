@@ -1,0 +1,43 @@
+.App{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 300px 75vw ;
+}
+
+.login_Div{
+  background-color: #ebebeb;
+  padding: 10px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 45%;
+   height: 40vh;
+   margin:10vh auto;
+   /* background-color: antiquewhite; */
+}
+.login_Div img{
+  width:20%;
+  height: 30%;
+}
+
+.login_Div button{
+  /* width: 90%;
+  margin: auto; */
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 90%;
+  font-weight: 600;
+  color: white;
+  margin-top: 3rem;
+  background-color: blue;
+  text-transform: uppercase;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+.login_Div button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

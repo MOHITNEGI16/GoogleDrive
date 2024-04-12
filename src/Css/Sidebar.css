@@ -1,0 +1,113 @@
+.sidebar{
+  width: 250px;
+  height: 80vh;
+  padding: 10px 15px;
+}
+
+.sidebar_button{
+  background-color: white;
+  width: 79px;
+  color: rgba(0, 0, 0, 0.612);
+  font-weight: 600;
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sidebar_button:hover{
+  background-color: #E9EEF6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidebar_differentOption{
+  margin-top: 1rem;
+}
+
+.option{
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+.option span{
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+.option:hover{
+  background-color: rgba(0, 0, 0, 0.132);
+}
+.option:active{
+ background-color: #C2E7FF;
+}
+hr{
+  margin-top: 10px;
+}
+.option.storage{
+  margin-top: 10px;
+}
+
+
+
+.modal_div{
+  outline: none;
+  height: auto;
+  background-color:whitesmoke;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  top: 30%;
+  border-radius: 10px;
+}
+
+.heading_form{
+  text-align: center;
+  height: 2.7rem;
+  border-bottom: 2px solid grey;
+}
+
+.file_choose{
+  margin: 1.4rem 0;
+}
+
+input.submit_file{
+   margin-left: 2.4rem;
+   width: 80%;
+   text-align: center;
+   background-color: blue;
+   border: none;
+   height: 2rem;
+   font-size: 1rem;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   color: white;
+   border-radius: 10px;
+   font-weight: 700;
+}
+input.submit_file:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.file{
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  margin-left: 2.4rem;
+  width: 80%;
+  text-align: center; 
+  height: 5rem;
+  font-size: 10rem;
+  border-radius: 10px;
+}
+
+
+.uploading_file{
+  margin: 1.5rem auto;
+  width: 90%;
+  border-radius: 10px;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: green;
+}
